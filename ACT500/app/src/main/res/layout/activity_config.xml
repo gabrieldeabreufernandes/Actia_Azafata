@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/config_title"
+        android:textSize="@dimen/text_size"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/config_volume"
+        android:textSize="@dimen/text2_size"
+        android:gravity="center_vertical"
+        android:paddingTop="20dp"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+
+        <ImageButton
+            android:layout_width="@dimen/intern_btn_size"
+            android:layout_height="@dimen/intern_btn_size"
+            android:id="@+id/btnMute"
+            android:background="@drawable/button_adb"
+            android:src="@drawable/ic_volume_mute_white_36dp"/>
+
+        <ImageButton
+            android:layout_width="@dimen/intern_btn_size"
+            android:layout_height="@dimen/intern_btn_size"
+            android:id="@+id/btnVolumeDown"
+            android:background="@drawable/button_adb"
+            android:src="@drawable/ic_volume_down_white_36dp"/>
+
+        <SeekBar
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/skVolumeBar"
+            android:layout_weight="1"
+            android:max="80"/>
+
+        <ImageButton
+            android:layout_width="@dimen/intern_btn_size"
+            android:layout_height="@dimen/intern_btn_size"
+            android:id="@+id/btnVolumeUp"
+            android:background="@drawable/button_adb"
+            android:src="@drawable/ic_volume_up_white_36dp"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/config_balance"
+        android:textSize="@dimen/text2_size"
+        android:gravity="center_vertical"
+        android:paddingTop="20dp"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+
+        <ImageButton
+            android:layout_width="@dimen/intern_btn_size"
+            android:layout_height="@dimen/intern_btn_size"
+            android:id="@+id/btnBalanceDown"
+            android:background="@drawable/button_adb"
+            android:src="@drawable/ic_navigate_before_white_36dp"/>
+
+        <SeekBar
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sbBalanceBar"
+            android:layout_weight="1"
+            android:max="40" />
+
+        <ImageButton
+            android:layout_width="@dimen/intern_btn_size"
+            android:layout_height="@dimen/intern_btn_size"
+            android:id="@+id/btnBalanceUp"
+            android:background="@drawable/button_adb"
+            android:src="@drawable/ic_navigate_next_white_36dp"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/config_bass"
+        android:textSize="@dimen/text2_size"
+        android:gravity="center_vertical"
+        android:paddingTop="20dp"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+
+        <ImageButton
+            android:layout_width="@dimen/intern_btn_size"
+            android:layout_height="@dimen/intern_btn_size"
+            android:id="@+id/btnBassDown"
+            android:background="@drawable/button_adb"
+            android:src="@drawable/ic_navigate_before_white_36dp"/>
+
+        <SeekBar
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sbBassBar"
+            android:layout_weight="1"
+            android:max="40" />
+
+        <ImageButton
+            android:layout_width="@dimen/intern_btn_size"
+            android:layout_height="@dimen/intern_btn_size"
+            android:id="@+id/btnBassUp"
+            android:background="@drawable/button_adb"
+            android:src="@drawable/ic_navigate_next_white_36dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/config_treble"
+        android:textSize="@dimen/text2_size"
+        android:gravity="center_vertical"
+        android:paddingTop="20dp"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+
+        <ImageButton
+            android:layout_width="@dimen/intern_btn_size"
+            android:layout_height="@dimen/intern_btn_size"
+            android:id="@+id/btnTrebleDown"
+            android:background="@drawable/button_adb"
+            android:src="@drawable/ic_navigate_before_white_36dp"/>
+
+        <SeekBar
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sbTrebleBar"
+            android:layout_weight="1"
+            android:max="40" />
+
+        <ImageButton
+            android:layout_width="@dimen/intern_btn_size"
+            android:layout_height="@dimen/intern_btn_size"
+            android:id="@+id/btnTrebleUp"
+            android:background="@drawable/button_adb"
+            android:src="@drawable/ic_navigate_next_white_36dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/config_equalizer"
+                android:textSize="@dimen/text2_size"
+                android:gravity="center_vertical"
+                android:paddingTop="20dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="@string/config_flat"
+                    android:textOff="@string/config_flat"
+                    android:id="@+id/tbFlat"
+                    android:background="@drawable/button_adb"
+                    android:textColor="@color/colorWhite"/>
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="@string/config_rock"
+                    android:textOff="@string/config_rock"
+                    android:id="@+id/tbRock"
+                    android:background="@drawable/button_adb"
+                    android:textColor="@color/colorWhite"/>
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="@string/config_opera"
+                    android:textOff="@string/config_opera"
+                    android:id="@+id/tbOpera"
+                    android:background="@drawable/button_adb"
+                    android:textColor="@color/colorWhite"/>
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="@string/config_pop"
+                    android:textOff="@string/config_pop"
+                    android:id="@+id/tbPop"
+                    android:background="@drawable/button_adb"
+                    android:textColor="@color/colorWhite"/>
+                <ToggleButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="@string/config_voice"
+                    android:textOff="@string/config_voice"
+                    android:id="@+id/tbVoice"
+                    android:background="@drawable/button_adb"
+                    android:textColor="@color/colorWhite"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="right">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/config_block_title"
+                android:textSize="@dimen/text2_size"
+                android:gravity="center_vertical"
+                android:paddingTop="20dp"/>
+            <ToggleButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textOn="@string/config_block_on"
+                android:textOff="@string/config_block_off"
+                android:id="@+id/tbInterfaceBlock"
+                android:background="@drawable/button_adb"
+                android:textColor="@color/colorWhite"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

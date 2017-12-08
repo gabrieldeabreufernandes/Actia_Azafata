@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multiplex</string>
+    <string name="chromo_title">Cromoterapia</string>
+    <string name="chromo_time">Tempo</string>
+    <string name="chromo_brightness">Brilho</string>
+    <string name="chromo_automatic">Automático</string>
+    <string name="chromo_selected">Selecionada</string>
+    <string name="comfort_title">Conforto</string>
+    <string name="chromo_view_on">Cromoterapia Habilitada</string>
+    <string name="chromo_view_off">Cromoterapia Desabilitada</string>
+    <string name="internal_light_1">Luz Interna Estágio 1</string>
+    <string name="internal_light_2">Luz Interna Estágio 2</string>
+    <string name="internal_light_off">Luz Interna Desligada</string>
+    <string name="light_title">Iluminação</string>
+    <string name="reading_light_1">Luz Leitura Individual</string>
+    <string name="reading_light_2">Luz Leitura  Embarque</string>
+    <string name="reading_light_off">Luz Leitura Desligada</string>
+    <string name="rear_door_on">Abrir Porta Traseira</string>
+    <string name="rear_door_off">Fechar Porta Traseira</string>
+    <string name="refrigerator_on">Geladeira 2 Ligada</string>
+    <string name="refrigerator_off">Geladeira 2 Desligada</string>
+    <string name="wifi_on">WiFi Ligado</string>
+    <string name="wifi_off">WiFi Desligado</string>
+    <string name="wisper_1">Wisper Estagio 1</string>
+    <string name="wisper_2">Wisper Estagio 2</string>
+    <string name="wisper_off">Wisper Desligado</string>
+    <string name="wc_off">Porta WC Travada</string>
+    <string name="wc_on">Porta WC Destravada</string>
+    <string name="seat_number_on">Luz Numero Poltrona Ligada</string>
+    <string name="seat_number_off">Luz Numero Poltrona Desligada</string>
+    <string name="coffee_on">Cafeteira Ligada</string>
+    <string name="coffee_off">Cafeteira Desligada</string>
+    <string name="azafata_on">Azafata Acionado</string>
+    <string name="azafata_off">Azafata Liberado</string>
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">ScreenTest</string>
+
+
+    <string name="comfort_title">Comfort</string>
+
+
+    <string name="light_title">Lighting</string>
+
+
+
+    <string name="chromo_on">ON</string>
+    <string name="chromo_off">OFF</string>
+    <string name="chromo_selected">Selected</string>
+    <string name="chromo_automatic">Automatic</string>
+    <string name="chromo_title">Chromotherapy</string>
+    <string name="chromo_time">Time</string>
+    <string name="chromo_brightness">Brightness</string>
+</resources>

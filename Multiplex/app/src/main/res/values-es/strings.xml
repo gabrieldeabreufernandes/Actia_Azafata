@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Multiplex</string>
+    <string name="chromo_title">Cromoterapia</string>
+    <string name="chromo_time">Tiempo</string>
+    <string name="chromo_automatic">Automático</string>
+    <string name="chromo_brightness">Luminosidad</string>
+    <string name="chromo_selected">Seleccionado</string>
+    <string name="chromo_view_on">Cromoterapia Habilitado</string>
+    <string name="chromo_view_off">Cromoterapia Desactivado</string>
+    <string name="internal_light_1">Iluminación Interior Etapa 1</string>
+    <string name="internal_light_2">Iluminación Interior Etapa 2</string>
+    <string name="internal_light_off">Iluminación Interior Desactivada</string>
+    <string name="light_title">Iluminación</string>
+    <string name="reading_light_1">Luz Lectura Individual</string>
+    <string name="reading_light_2">Luz Lectura Embarque</string>
+    <string name="reading_light_off">Luz Lectura Desactivada</string>
+    <string name="rear_door_on">Abrir Puerta Trasera</string>
+    <string name="rear_door_off">Cerrar Puerta Trasera</string>
+    <string name="refrigerator_on">Refrigerador 2 Activado</string>
+    <string name="refrigerator_off">Refrigerador 2 Desactivado</string>
+    <string name="wifi_on">WiFi Activado</string>
+    <string name="wifi_off">WiFi Desactivado</string>
+    <string name="wisper_1">Calefactor de Asiento Etapa 1</string>
+    <string name="wisper_2">Calefactor de Asiento Etapa 2</string>
+    <string name="wisper_off">Calefactor de Asiento Desactivado</string>
+    <string name="wc_on">Puerta WC Desbloqueada</string>
+    <string name="wc_off">Puerta WC Bloqueada</string>
+    <string name="seat_number_on">Iluminacion Numero De Sillon Activada</string>
+    <string name="seat_number_off">Iluminacion Numero De Sillon Desactivada</string>
+    <string name="comfort_title">Comodidad</string>
+    <string name="coffee_on">Cafetera Activada</string>
+    <string name="coffee_off">Cafetera Desactivada</string>
+    <string name="azafata_on">Azafata On</string>
+    <string name="azafata_off">Azafata Off</string>
+</resources>

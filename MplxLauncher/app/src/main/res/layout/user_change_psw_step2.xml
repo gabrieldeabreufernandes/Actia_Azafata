@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/cardview_light_background"
+    android:layout_gravity="center">
+
+    <TextView
+        android:id="@+id/tv_login_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/user_check_psw"
+        style="@style/Base.TextAppearance.AppCompat.Title" />
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/userpsw3_textin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/txt_user_password3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/user_current_password"
+            android:inputType="numberPassword"
+            android:selectAllOnFocus="false"
+            android:textSize="18sp"
+            android:maxLength="6"
+            android:imeOptions="flagNoExtractUi"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.v7.widget.ButtonBarLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end">
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_cancel"
+            android:layout_gravity="end"/>
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/user_confirm"
+            android:layout_gravity="end"/>
+    </android.support.v7.widget.ButtonBarLayout>
+</LinearLayout>

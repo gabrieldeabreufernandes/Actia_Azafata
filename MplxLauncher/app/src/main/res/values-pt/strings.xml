@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MplxLauncher</string>
+    <string name="action_settings">Configurações</string>
+    <string name="addapp_alert_ok_text">Aplicativo adicionado a tela principal</string>
+    <string name="addapp_alert_text">Você deseja adicionar este aplicativo na tela principal?</string>
+    <string name="addapp_alert_title"></string>
+    <string name="delete_alert_ok_text">Item deletado com sucesso</string>
+    <string name="delete_alert_text">Deseja deletar este item?</string>
+    <string name="login_error">ERRO: Senha incorreta</string>
+    <string name="new_icon">Novo</string>
+    <string name="user_name">Nome</string>
+    <string name="user_password">Senha</string>
+    <string name="user_save">Salvar</string>
+    <string name="user_save_success">Usuário salvo</string>
+    <string name="users_title">Usuários</string>
+    <string name="user_login">Login</string>
+    <string name="user_err_psw_match">Senha deve ser igual</string>
+    <string name="user_err_psw_len">Tamanho mínimo de 6 caracteres</string>
+    <string name="user_err_empty">Não permitido campo vazio</string>
+    <string name="user_err_delete_admin">Não é possível deletar usuário Admin</string>
+    <string name="user_edit_title">Dados do Usuário</string>
+    <string name="user_delete_success">Usuário removido</string>
+    <string name="user_delete">Deletar</string>
+    <string name="user_current_password">Senha atual</string>
+    <string name="user_confirm_password">Introduza a senha novamente</string>
+    <string name="user_confirm">Confirmar</string>
+    <string name="user_check_psw">Confirmação do Admin</string>
+    <string name="user_cancel">Cancelar</string>
+    <string name="delete_alert_title">Deletar item</string>
+</resources>

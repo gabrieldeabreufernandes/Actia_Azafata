@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <View
+        android:id="@+id/color_space"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/color_space" />
+    <EditText
+        android:id="@+id/color_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="1"/>
+
+    <TextView
+        android:id="@+id/seek_transparent_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/transparent_title"
+        android:paddingLeft="@dimen/color_padding_left" />
+    <SeekBar
+        android:id="@+id/seek_transparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/transparent_title"
+        android:max="255"
+        android:paddingLeft="@dimen/color_padding_left" />
+
+    <TextView
+        android:id="@+id/seek_red_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/red_title"
+        android:paddingLeft="@dimen/color_padding_left" />
+    <SeekBar
+        android:id="@+id/seek_red"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/red_title"
+        android:max="255"
+        android:paddingLeft="@dimen/color_padding_left" />
+
+    <TextView
+        android:id="@+id/seek_green_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/green_title"
+        android:paddingLeft="@dimen/color_padding_left" />
+    <SeekBar
+        android:id="@+id/seek_green"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:paddingLeft="@dimen/color_padding_left" />
+
+    <TextView
+        android:id="@+id/seek_blue_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/blue_title"
+        android:paddingLeft="@dimen/color_padding_left" />
+    <SeekBar
+        android:id="@+id/seek_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="255"
+        android:paddingLeft="@dimen/color_padding_left" />
+
+    <Button
+        android:id="@+id/color_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:text="@string/btn_save"/>
+</LinearLayout>

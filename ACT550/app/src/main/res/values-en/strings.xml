@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Irizar DZ</string>
+    <string name="vip_title">VIP</string>
+    <string name="exec_title">Executive</string>
+    <string name="sd_title">SD Card</string>
+    <string name="usb_title">USB</string>
+    <string name="radio_title">Radio</string>
+    <string name="aux_title">Auxiliar Input</string>
+    <string name="aux_text">Auxiliar Input Selected</string>
+    <string name="config_title">Settings</string>
+    <string name="mic_title">Microphone</string>
+    <string name="mic_text">Microphone Selected</string>
+
+    <string name="radio_memory">In Memory Station</string>
+    <string name="radio_am">AM</string>
+    <string name="radio_fm">FM</string>
+    <string name="radio_empty">empty</string>
+    <string name="radio_stat_name">STATION NAME</string>
+    <string name="config_volume">volume</string>
+    <string name="config_balance">Balance</string>
+    <string name="config_bass">BASS</string>
+    <string name="config_treble">Treble</string>
+    <string name="config_equalizer">Equalizer</string>
+    <string name="config_flat">Flat</string>
+    <string name="config_rock">Rock</string>
+    <string name="config_opera">Opera</string>
+    <string name="config_pop">POP</string>
+    <string name="config_voice">Voice</string>
+    <string name="config_block_on">ON</string>
+    <string name="config_block_off">OFF</string>
+    <string name="config_block_title">Blocker</string>
+    <string name="media_playlist">Playlists</string>
+    <string name="media_list">List of medias</string>
+    <string name="media_error">Invalid Playlist file.</string>
+    <string name="media_notfound">Playlist not found!</string>
+    <string name="usb_refresh">Refresh</string>
+    <string name="usb_copy">Copy</string>
+    <string name="usb_pendrive_title">USB Playlists</string>
+    <string name="usb_tablet_title">TABLET Playlists</string>
+    <string name="usb_toright"><![CDATA[>>]]></string>
+    <string name="usb_delete">Delete</string>
+    <string name="usb_save">Save</string>
+    <string name="delete_confirmatioin">Delete Confirmation</string>
+    <string name="delete_message">Are you sure to delete this item?</string>
+    <string name="usb_copy_wait">Wait, Loading Files...</string>
+    <string name="usb_copy_ok">Files successfully copied.</string>
+    <string name="usb_copy_error">USB Device not found!.</string>
+
+</resources>

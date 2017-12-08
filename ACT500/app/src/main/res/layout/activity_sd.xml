@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/sd_title"
+        android:textSize="@dimen/text_size"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtUSBFile"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/txt_aux_size"
+            android:padding="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtUSBTime"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/txt_aux_size"
+            android:padding="20dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical">
+
+        <ImageButton
+            android:layout_width="@dimen/intern_btn_size"
+            android:layout_height="@dimen/intern_btn_size"
+            android:id="@+id/btnUSBReward"
+            android:background="@drawable/button_adb"
+            android:src="@drawable/ic_skip_previous_white_36dp"/>
+        <ImageButton
+            android:layout_width="@dimen/intern_btn_size"
+            android:layout_height="@dimen/intern_btn_size"
+            android:id="@+id/btnUSBPlayPause"
+            android:background="@drawable/button_adb"
+            android:src="@drawable/ic_play_arrow_white_36dp"/>
+        <ImageButton
+            android:layout_width="@dimen/intern_btn_size"
+            android:layout_height="@dimen/intern_btn_size"
+            android:id="@+id/btnUSBForward"
+            android:background="@drawable/button_adb"
+            android:src="@drawable/ic_skip_next_white_36dp"/>
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/list_fragment_id"
+        class="br.com.actia.controller.playlist_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+</LinearLayout>

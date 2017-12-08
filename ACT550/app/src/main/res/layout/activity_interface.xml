@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark">
+
+            <ImageButton
+                android:id="@+id/vipUsb"
+                android:layout_width="@dimen/menu_button_size"
+                android:layout_height="@dimen/menu_button_size"
+                android:background="@drawable/button_adb"
+                android:src="@drawable/ic_usb_white_36dp" />
+            <ImageButton
+                android:id="@+id/vipSd"
+                android:layout_width="@dimen/menu_button_size"
+                android:layout_height="@dimen/menu_button_size"
+                android:background="@drawable/button_adb"
+                android:src="@drawable/ic_sd_storage_white_36dp"/>
+            <ImageButton
+                android:id="@+id/vipRadio"
+                android:layout_width="@dimen/menu_button_size"
+                android:layout_height="@dimen/menu_button_size"
+                android:background="@drawable/button_adb"
+                android:src="@drawable/ic_radio_white_36dp"/>
+            <ImageButton
+                android:id="@+id/vipAux"
+                android:layout_width="@dimen/menu_button_size"
+                android:layout_height="@dimen/menu_button_size"
+                android:background="@drawable/button_adb"
+                android:src="@drawable/ic_settings_input_composite_white_36dp"/>
+            <ImageButton
+                android:id="@+id/vipConfig"
+                android:layout_width="@dimen/menu_button_size"
+                android:layout_height="@dimen/menu_button_size"
+                android:background="@drawable/button_adb"
+                android:src="@drawable/ic_settings_white_36dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/area1Header"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.8">
+            <TextView
+                android:id="@+id/area1Text"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="@string/vip_title"
+                android:textSize="@dimen/text_title_size"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/colorTitleBG"/>
+            <FrameLayout
+                android:id="@+id/vipTabContent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+        <View
+            android:id="@+id/separator"
+            android:layout_width="4dp"
+            android:layout_height="fill_parent"
+            android:background="@color/colorTitleBG" />
+
+        <LinearLayout
+            android:id="@+id/area2Header"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:layout_weight="0.8">
+            <TextView
+                android:id="@+id/area2Text"
+                android:layout_width="fill_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:text="@string/exec_title"
+                android:textSize="@dimen/text_title_size"
+                android:textColor="@color/colorPrimaryDark"
+                android:background="@color/colorTitleBG"/>
+            <FrameLayout
+                android:id="@+id/execTabContent"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/colorPrimaryDark">
+
+            <ImageButton
+                android:id="@+id/execUsb"
+                android:layout_width="@dimen/menu_button_size"
+                android:layout_height="@dimen/menu_button_size"
+                android:background="@drawable/button_adb"
+                android:src="@drawable/ic_usb_white_36dp"
+                android:contentDescription="" />
+            <ImageButton
+                android:id="@+id/execSd"
+                android:layout_width="@dimen/menu_button_size"
+                android:layout_height="@dimen/menu_button_size"
+                android:background="@drawable/button_adb"
+                android:src="@drawable/ic_sd_storage_white_36dp"/>
+            <ImageButton
+                android:id="@+id/execRadio"
+                android:layout_width="@dimen/menu_button_size"
+                android:layout_height="@dimen/menu_button_size"
+                android:background="@drawable/button_adb"
+                android:src="@drawable/ic_radio_white_36dp"/>
+            <ImageButton
+                android:id="@+id/execAux"
+                android:layout_width="@dimen/menu_button_size"
+                android:layout_height="@dimen/menu_button_size"
+                android:background="@drawable/button_adb"
+                android:src="@drawable/ic_settings_input_composite_white_36dp"/>
+            <ImageButton
+                android:id="@+id/execConfig"
+                android:layout_width="@dimen/menu_button_size"
+                android:layout_height="@dimen/menu_button_size"
+                android:background="@drawable/button_adb"
+                android:src="@drawable/ic_settings_white_36dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/topBrandArea"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal|top">
+
+        <ImageView
+            android:layout_width="@dimen/img_aux_size"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|top"
+            android:contentDescription="@string/company_logo"
+            android:paddingTop="22dp"
+            android:src="@drawable/company_logo" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/bottomPoweredBy"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal|bottom">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|bottom"
+            android:contentDescription=""
+            android:background="@color/colorTitleBG"
+            android:src="@drawable/powered_by_actia" />
+    </LinearLayout>
+</FrameLayout>

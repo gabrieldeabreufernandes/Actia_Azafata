@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/buttonsPanel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="@color/app_background">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/area1_title"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="@dimen/title_size"
+            android:text="@string/comfort_title"/>
+
+        <GridLayout
+            android:id="@+id/btn_area1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:columnCount="3"
+            android:rowCount="2">
+
+            <br.com.actia.component.MultipleStateButton
+                android:id="@+id/btn_wifi"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/button_levels"
+                android:src="@drawable/wifi"/>
+
+            <br.com.actia.component.MultipleStateButton
+                android:id="@+id/btn_wc"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/button_levels"
+                android:src="@drawable/wc"/>
+
+            <br.com.actia.component.MultipleStateButton
+                android:id="@+id/btn_coffee"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/button_levels"
+                android:src="@drawable/coffee"/>
+
+            <br.com.actia.component.MultipleStateButton
+                android:id="@+id/btn_refrigerator"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/button_levels"
+                android:src="@drawable/refrigerator"/>
+
+            <br.com.actia.component.MultipleStateButton
+                android:id="@+id/btn_wisper"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/button_levels"
+                android:src="@drawable/wisper"/>
+
+            <br.com.actia.component.MultipleStateButton
+                android:id="@+id/btn_rcd"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/button_levels"
+                android:src="@drawable/rcd"/>
+
+        </GridLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/area2_title"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="10dp"
+            android:textSize="@dimen/title_size"
+            android:text="@string/light_title"/>
+
+        <GridLayout
+            android:id="@+id/btn_area2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:columnCount="3"
+            android:rowCount="2">
+
+            <br.com.actia.component.MultipleStateButton
+                android:id="@+id/btn_intern_light"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/button_levels"
+                android:src="@drawable/intern_light"/>
+
+            <br.com.actia.component.MultipleStateButton
+                android:id="@+id/btn_reading_light"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/button_levels"
+                android:src="@drawable/reading_light"/>
+
+            <br.com.actia.component.MultipleStateButton
+                android:id="@+id/btn_seat_num"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/button_levels"
+                android:src="@drawable/seat_num"/>
+
+            <br.com.actia.component.MultipleStateButton
+                android:id="@+id/btn_azafata"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/button_levels"
+                android:src="@drawable/azafata"/>
+
+            <br.com.actia.component.MultipleStateButton
+                android:id="@+id/btn_chromotherapy"
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:background="@drawable/button_levels"
+                android:src="@drawable/chromotherapy"/>
+        </GridLayout>
+    </LinearLayout>
+
+</LinearLayout>

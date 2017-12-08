@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Multiplex</string>
+
+    <string name="comfort_title">Comfort</string>
+
+    <string name="light_title">Lighting</string>
+
+    <string name="chromo_on" translatable="false">ON</string>
+    <string name="chromo_off" translatable="false">OFF</string>
+    <string name="chromo_selected">Selected</string>
+    <string name="chromo_automatic">Automatic</string>
+    <string name="chromo_title">Chromotherapy</string>
+    <string name="chromo_time">Time</string>
+    <string name="chromo_brightness">Brightness</string>
+    <string name="chromo_view_on">Chromotherapy enabled</string>
+    <string name="chromo_view_off">Chromotherapy disabled</string>
+
+    
+
+    <string name="seat_number_on">Seats Number Light On</string>
+    <string name="seat_number_off">Seats Number Light Off</string>
+    <string name="internal_light_1">Interior Light Stage 1</string>
+    <string name="internal_light_2">Interior Light Stage 2</string>
+    <string name="internal_light_off">Interior Light Off</string>
+    <string name="reading_light_1">Individual Reading Light</string>
+    <string name="reading_light_2">Boarding Reading Light</string>
+    <string name="reading_light_off">Reading Light Off</string>
+    <string name="refrigerator_on">Refrigerator 2 On</string>
+    <string name="refrigerator_off">Refrigerator 2 Off</string>
+    <string name="coffee_on">Coffee Maker On</string>
+    <string name="coffee_off">Coffee Maker Off</string>
+    <string name="wifi_on">WiFi On</string>
+    <string name="wifi_off">WiFi Off</string>
+    <string name="wisper_1">Wisper Seat Stage 1</string>
+    <string name="wisper_2">Wisper Seat Stage 2</string>
+    <string name="wisper_off">Wisper Seat Off</string>
+    <string name="wc_on">WC Door Unlocked</string>
+    <string name="wc_off">WC Door Locked</string>
+    <string name="rear_door_on">Open Rear Door</string>
+    <string name="rear_door_off">Close Rear Door</string>
+    <string name="azafata_on">Azafata On</string>
+    <string name="azafata_off">Azafata Off</string>
+
+    <string name="err_config_file">Error: Config file is inconsistent</string>
+</resources>

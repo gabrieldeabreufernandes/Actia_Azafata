@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MplxLauncher</string>
+    <string name="addapp_alert_ok_text">Aplicación agregada a la pantalla principal</string>
+    <string name="action_settings">Configuración</string>
+    <string name="addapp_alert_text">¿Desea agregar esta APP a la pantalla principal?</string>
+    <string name="delete_alert_ok_text">Elemento eliminado correctamente</string>
+    <string name="delete_alert_text">¿Desea realmente eliminar este elemento?</string>
+    <string name="delete_alert_title">Eliminar elemento</string>
+    <string name="login_error">ERROR: contraseña incorrecta</string>
+    <string name="new_icon">Nuevo</string>
+    <string name="section_format"></string>
+    <string name="user_err_psw_match">Las contraseñas no coinciden</string>
+    <string name="user_err_psw_len">Contraseña de 6 caracteres requerida</string>
+    <string name="user_confirm_password">Vuelva a escribir la contraseña</string>
+    <string name="user_current_password">Contraseña actual</string>
+    <string name="user_delete">Borrar</string>
+    <string name="user_delete_success">Usuario eliminado</string>
+    <string name="user_edit_title">Datos del usuario</string>
+    <string name="user_err_delete_admin">Imposible eliminar usuario Admin</string>
+    <string name="user_err_empty">No se permite el campo vacío</string>
+    <string name="user_login">Sesíon</string>
+    <string name="user_name">Nombre</string>
+    <string name="user_password">Contraseña</string>
+    <string name="user_save">Salvar</string>
+    <string name="user_save_success">Usuario guardado</string>
+    <string name="users_title">Usuarios</string>
+    <string name="user_confirm">Confirmar</string>
+    <string name="user_check_psw">Confirmación del administrador</string>
+    <string name="user_cancel">Cancelar</string>
+</resources>

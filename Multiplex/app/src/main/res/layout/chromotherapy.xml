@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/chromotherapy"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/transparent_white">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/chromoPane"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:padding="30px"
+        android:background="@color/transparent_white">
+
+        <TextView
+            android:id="@+id/chromo_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/chromo_title"
+            android:textColor="@color/chromo_text"
+            android:textSize="@dimen/title_size"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <GridLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_gravity="center"
+                android:rowCount="3"
+                android:columnCount="3">
+
+                <ToggleButton
+                    android:id="@+id/chbt_blue"
+                    android:height="100px"
+                    android:width="100px"
+                    android:background="@color/md_indigo_A100"
+                    android:textOn="@string/chromo_on"
+                    android:textOff="@string/chromo_off"/>
+
+                <ToggleButton
+                    android:id="@+id/chbt_yellow"
+                    android:height="100px"
+                    android:width="100px"
+                    android:background="@color/md_yellow_100"
+                    android:textOn="@string/chromo_on"
+                    android:textOff="@string/chromo_off"/>
+
+                <ToggleButton
+                    android:id="@+id/chbt_cyan"
+                    android:height="100px"
+                    android:width="100px"
+                    android:background="@color/md_cyan_50"
+                    android:textOn="@string/chromo_on"
+                    android:textOff="@string/chromo_off"/>
+
+                <ToggleButton
+                    android:id="@+id/chbt_red"
+                    android:height="100px"
+                    android:width="100px"
+                    android:background="@color/md_red_200"
+                    android:textOn="@string/chromo_on"
+                    android:textOff="@string/chromo_off"/>
+
+                <ToggleButton
+                    android:id="@+id/chbt_purple"
+                    android:height="100px"
+                    android:width="100px"
+                    android:background="@color/md_purple_200"
+                    android:textOn="@string/chromo_on"
+                    android:textOff="@string/chromo_off"/>
+
+                <ToggleButton
+                    android:id="@+id/chbt_orange"
+                    android:height="100px"
+                    android:width="100px"
+                    android:background="@color/md_orange_400"
+                    android:textOn="@string/chromo_on"
+                    android:textOff="@string/chromo_off"/>
+
+                <ToggleButton
+                    android:id="@+id/chbt_green"
+                    android:height="100px"
+                    android:width="100px"
+                    android:background="@color/md_green_200"
+                    android:textOn="@string/chromo_on"
+                    android:textOff="@string/chromo_off"/>
+
+                <ToggleButton
+                    android:id="@+id/chbt_pink"
+                    android:height="100px"
+                    android:width="100px"
+                    android:background="@color/md_pink_100"
+                    android:textOn="@string/chromo_on"
+                    android:textOff="@string/chromo_off"/>
+
+                <ToggleButton
+                    android:id="@+id/chbt_white_green"
+                    android:height="100px"
+                    android:width="100px"
+                    android:background="@color/md_teal_200"
+                    android:textOn="@string/chromo_on"
+                    android:textOff="@string/chromo_off"/>
+            </GridLayout>
+
+            <LinearLayout
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <ToggleButton
+                    android:id="@+id/chromoAutomatic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textOn="@string/chromo_automatic"
+                    android:textOff="@string/chromo_selected"
+                    android:textColor="@color/chromo_text"
+                    android:textSize="@dimen/text_size"/>
+
+                <TextView
+                    android:id="@+id/chromo_brightness_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chromo_brightness"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/chromo_text"/>
+
+                <SeekBar
+                    android:id="@+id/chromo_brightness"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:max="100"/>
+
+                <TextView
+                    android:id="@+id/chromo_time_txt"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/chromo_time"
+                    android:textSize="@dimen/text_size"
+                    android:textColor="@color/chromo_text"/>
+
+                <SeekBar
+                    android:id="@+id/chromo_time"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:max="50" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Irizar DZ</string>
+    <string name="vip_title">VIP</string>
+    <string name="exec_title">Executivo</string>
+    <string name="sd_title">Cartão SD</string>
+    <string name="dvd_title">DVD</string>
+    <string name="radio_title">Rádio</string>
+    <string name="aux_title">Entrada Auxiliar</string>
+    <string name="aux_text">Entrada Auxiliar Selecionada</string>
+    <string name="config_title">Configuração</string>
+    <string name="mic_title">Microfone</string>
+    <string name="mic_text">Microfone Selecionado</string>
+
+
+    <string name="radio_memory">Estações na Memória</string>
+    <string name="radio_am">AM</string>
+    <string name="radio_fm">FM</string>
+    <string name="radio_empty">vazio</string>
+    <string name="radio_stat_name">NOME DA ESTAÇÃO</string>
+    <string name="config_volume">volume</string>
+    <string name="config_balance">Balance</string>
+    <string name="config_bass">BASS</string>
+    <string name="config_treble">Treble</string>
+    <string name="config_equalizer">Equalizador</string>
+    <string name="config_flat">Flat</string>
+    <string name="config_rock">Rock</string>
+    <string name="config_opera">Ópera</string>
+    <string name="config_pop">POP</string>
+    <string name="config_voice">Voz</string>
+    <string name="config_block_on">ON</string>
+    <string name="config_block_off">OFF</string>
+    <string name="config_block_title">Bloqueador</string>
+    <string name="media_error">Arquivo de playlist inválido.</string>
+    <string name="media_notfound">Nenhuma playlist encontrada!</string>
+    <string name="usb_refresh">Refresh</string>
+    <string name="usb_copy">Copy</string>
+    <string name="usb_pendrive_title">USB Playlists</string>
+    <string name="usb_tablet_title">TABLET Playlists</string>
+    <string name="usb_toright"><![CDATA[>>]]></string>
+    <string name="usb_delete">Delete</string>
+    <string name="usb_save">Save</string>
+    <string name="delete_confirmatioin">Delete Confirmation</string>
+    <string name="delete_message">Are you sure to delete this item?</string>
+    <string name="usb_copy_wait">Aguarde, copiando arquivos...</string>
+    <string name="usb_copy_ok">Arquivos copiados com sucesso!</string>
+    <string name="usb_copy_error">ERRO ao copiar arquivos!</string>
+</resources>

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Configuration</string>
+
+    <string name="red_title">RGB Red</string>
+    <string name="green_title">RGB Green</string>
+    <string name="blue_title">RGB Blue</string>
+    <string name="image_btn">Choose</string>
+    <string name="button">Button</string>
+
+
+    <string name="multiplex">Multiplex</string>
+    <string name="bg_color">BG Color</string>
+
+    <string name="top_bar">Top Bar</string>
+    <string name="logo_list">Logo List</string>
+
+    <string name="button_area">Button Area</string>
+    <string name="title_color">Title Color</string>
+    <string name="title1">Title 1</string>
+    <string name="title2">Title 2</string>
+
+    <string name="bottom_area">Bottom Area</string>
+    <string name="message_color">Mesage Color</string>
+    <string name="alert_color">Alert Color</string>
+    <string name="error_color">Error Color</string>
+
+    <string name="btn_disable1">Disable Color 1</string>
+    <string name="btn_disable2">Disable Color 2</string>
+    <string name="btn_normal1">Normal Color 1</string>
+    <string name="btn_normal2">Normal Color 2</string>
+    <string name="btn_stage1_1">Stage 1 Color 1</string>
+    <string name="btn_stage1_2">Stage 1 Color 2</string>
+    <string name="btn_stage2_1">Stage 2 Color 1</string>
+    <string name="btn_stage2_2">Stage 2 Color 2</string>
+    <string name="btn_press1">Pressed Color 1</string>
+    <string name="btn_press2">Pressed Color 2</string>
+    <string name="btn_save">Save</string>
+    <string name="transparent_title">Transparent</string>
+</resources>
