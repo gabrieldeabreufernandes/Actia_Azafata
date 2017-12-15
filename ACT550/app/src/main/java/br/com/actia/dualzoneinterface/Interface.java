@@ -56,11 +56,15 @@ public class Interface extends Activity implements View.OnClickListener {
     private ImageButton ibVipRadio;
     private ImageButton ibVipAux;
     private ImageButton ibVipConfig;
+    //GAFR
+    private ImageButton ibVipMic;
     private ImageButton ibExecUsb;
     private ImageButton ibExecSd;
     private ImageButton ibExecRadio;
     private ImageButton ibExecAux;
     private ImageButton ibExecConfig;
+    //GAFR
+    private ImageButton ibExecMic;
 
     private Intent      intentService = null;
     private Globals     globals = null;
@@ -148,24 +152,32 @@ public class Interface extends Activity implements View.OnClickListener {
         ibVipRadio = (ImageButton) findViewById(R.id.vipRadio);
         ibVipAux = (ImageButton) findViewById(R.id.vipAux);
         ibVipConfig = (ImageButton) findViewById(R.id.vipConfig);
+        //GAFR
+        ibVipMic = (ImageButton) findViewById(R.id.vipMic);
 
         ibVipUsb.setOnClickListener(this);
         ibVipSd.setOnClickListener(this);
         ibVipRadio.setOnClickListener(this);
         ibVipAux.setOnClickListener(this);
         ibVipConfig.setOnClickListener(this);
+        //GAFR
+        ibVipMic.setOnClickListener(this);
 
         ibExecUsb = (ImageButton) findViewById(R.id.execUsb);
         ibExecSd = (ImageButton) findViewById(R.id.execSd);
         ibExecRadio = (ImageButton) findViewById(R.id.execRadio);
         ibExecAux = (ImageButton) findViewById(R.id.execAux);
         ibExecConfig = (ImageButton) findViewById(R.id.execConfig);
+        //GAFR
+        ibExecMic = (ImageButton) findViewById(R.id.execMic);
 
         ibExecUsb.setOnClickListener(this);
         ibExecSd.setOnClickListener(this);
         ibExecRadio.setOnClickListener(this);
         ibExecAux.setOnClickListener(this);
         ibExecConfig.setOnClickListener(this);
+        //GAFR
+        ibExecMic.setOnClickListener(this);
     }
 
     private void setCurrentSources(byte frmDriverSource, byte frmPassSource) {
@@ -203,6 +215,7 @@ public class Interface extends Activity implements View.OnClickListener {
                 break;
             case DVDSource.DVD_SOURCE_MIC:
                 setFragmentMIC(R.id.vipTabContent, DRIVER);
+                ibVipMic.setSelected(true);
                 break;
             case DVDSource.DVD_SOURCE_CONFIG:
                 //setFragmentMIC(R.id.vipTabContent, DRIVER);
@@ -234,6 +247,8 @@ public class Interface extends Activity implements View.OnClickListener {
                 break;
             case DVDSource.DVD_SOURCE_MIC:
                 setFragmentMIC(R.id.execTabContent, PASSENGER);
+                //GAFR
+                ibExecMic.setSelected(true);
                 break;
             case DVDSource.DVD_SOURCE_CONFIG:
                 //setFragmentConfig(R.id.execTabContent, PASSENGER);
@@ -251,6 +266,8 @@ public class Interface extends Activity implements View.OnClickListener {
             ibVipRadio.setSelected(false);
             ibVipAux.setSelected(false);
             ibVipConfig.setSelected(false);
+            //GAFR
+            ibVipMic.setSelected(false);
         }
         else if( button == ibExecSd || button == ibExecUsb || button == ibExecRadio ||
                 button == ibExecAux || button == ibExecConfig ) {
@@ -259,6 +276,8 @@ public class Interface extends Activity implements View.OnClickListener {
             ibExecRadio.setSelected(false);
             ibExecAux.setSelected(false);
             ibExecConfig.setSelected(false);
+            //GAFR
+            ibExecMic.setSelected(false);
         }
     }
 
@@ -270,7 +289,9 @@ public class Interface extends Activity implements View.OnClickListener {
         resetMenu(ib);
         ib.setSelected(true);
 
-        if(view == ibVipAux || view == ibVipConfig || view == ibVipSd || view == ibVipRadio || view == ibVipUsb) {
+        //GAFR
+        //if(view == ibVipAux || view == ibVipConfig || view == ibVipSd || view == ibVipRadio || view == ibVipUsb) {
+        if(view == ibVipAux || view == ibVipConfig || view == ibVipSd || view == ibVipRadio || view == ibVipUsb || view == ibVipMic) {
             R_content = R.id.vipTabContent;
         }
         else {
@@ -291,6 +312,10 @@ public class Interface extends Activity implements View.OnClickListener {
         }
         else if(view == ibVipConfig || view == ibExecConfig) {
             setFragmentConfig(R_content, (view == ibVipConfig));
+        }
+        //GAFR
+        else if(view == ibVipMic || view == ibExecMic) {
+            setFragmentMIC(R_content, (view == ibVipMic));
         }
     }
 
@@ -381,6 +406,7 @@ public class Interface extends Activity implements View.OnClickListener {
 
         MicFragment micFragment = new MicFragment();
         micFragment.setIsDriver(isDrive);
+        //micFragment.sendChangeMode(globals);
 
         changeFragment(R_fragmentContainer, micFragment, isDrive);
     }
@@ -506,6 +532,9 @@ public class Interface extends Activity implements View.OnClickListener {
                         Color.parseColor(fileStructure.getMenuBar().getBtnSelected()), Color.parseColor(fileStructure.getMenuBar().getBtnNormal())));
                 ibVipConfig.setBackground(makeSelector(Color.parseColor(fileStructure.getMenuBar().getBtnPressed()),
                         Color.parseColor(fileStructure.getMenuBar().getBtnSelected()), Color.parseColor(fileStructure.getMenuBar().getBtnNormal())));
+                //GAFR
+                ibVipMic.setBackground(makeSelector(Color.parseColor(fileStructure.getMenuBar().getBtnPressed()),
+                        Color.parseColor(fileStructure.getMenuBar().getBtnSelected()), Color.parseColor(fileStructure.getMenuBar().getBtnNormal())));
 
                 ibExecSd.setBackground(makeSelector(Color.parseColor(fileStructure.getMenuBar().getBtnPressed()),
                         Color.parseColor(fileStructure.getMenuBar().getBtnSelected()), Color.parseColor(fileStructure.getMenuBar().getBtnNormal())));
@@ -517,6 +546,10 @@ public class Interface extends Activity implements View.OnClickListener {
                         Color.parseColor(fileStructure.getMenuBar().getBtnSelected()), Color.parseColor(fileStructure.getMenuBar().getBtnNormal())));
                 ibExecConfig.setBackground(makeSelector(Color.parseColor(fileStructure.getMenuBar().getBtnPressed()),
                         Color.parseColor(fileStructure.getMenuBar().getBtnSelected()), Color.parseColor(fileStructure.getMenuBar().getBtnNormal())));
+                //GAFR
+                ibExecMic.setBackground(makeSelector(Color.parseColor(fileStructure.getMenuBar().getBtnPressed()),
+                        Color.parseColor(fileStructure.getMenuBar().getBtnSelected()), Color.parseColor(fileStructure.getMenuBar().getBtnNormal())));
+
             }
 
             //Set bottom Bar configurations

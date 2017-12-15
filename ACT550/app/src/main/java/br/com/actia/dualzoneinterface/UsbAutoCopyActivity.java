@@ -1,7 +1,6 @@
 package br.com.actia.dualzoneinterface;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -9,20 +8,16 @@ import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import java.io.File;
-import java.util.ArrayList;
 import java.util.List;
 
 import br.com.actia.controller.PlaylistHandler;
 
 /**
  * Created by Armani andersonaramni@gmail.com on 06/04/17.
+ *
+ * Edited by Gabriel gab.frosa@gmail.com  11/17
  */
 
-/*
-    CHANGED BY GABRIEL:
-    this view does not have to be displayed.
- */
 
 public class UsbAutoCopyActivity extends Activity {
     private TextView    mTvTitle;
@@ -40,7 +35,8 @@ public class UsbAutoCopyActivity extends Activity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-       //setContentView(R.layout.activity_autoload_usb);
+        //setContentView(R.layout.activity_autoload_usb);
+
         //mTvTitle = (TextView) findViewById(R.id.usb_title);
         //mTvStatus = (TextView) findViewById(R.id.usb_title);
         //mPbProgress = (ProgressBar) findViewById(R.id.usb_progressBar);
@@ -75,7 +71,6 @@ public class UsbAutoCopyActivity extends Activity {
             }
             else {
                 Toast.makeText(getApplicationContext(), "DISPOSITIVO USB NAO ENCONTRADO", Toast.LENGTH_LONG).show();
-                //mTvTitle.setText(getString(R.string.usb_copy_error));
             }
 
             finish();
@@ -93,22 +88,21 @@ public class UsbAutoCopyActivity extends Activity {
         protected void onPostExecute(Object obj) {
             super.onPostExecute(obj);
 
-            if ((boolean) obj){
-                //mTvTitle.setText(getString(R.string.usb_copy_ok));
+            if((boolean) obj) {
+                ///mTvTitle.setText(getString(R.string.usb_copy_ok));
                 Toast.makeText(getApplicationContext(), "ARQUIVOS COPIADOS COM SUCESSO!", Toast.LENGTH_LONG).show();
             }else {
-                //mTvTitle.setText(getString(R.string.usb_copy_error));
                 Toast.makeText(getApplicationContext(), "DISPOSITIVO USB NAO ENCONTRADO", Toast.LENGTH_LONG).show();
+                //mTvTitle.setText(getString(R.string.usb_copy_error));
             }
         }
 
-        /*
         @Override
         protected void onProgressUpdate(Object[] values) {
             super.onProgressUpdate(values);
 
             //mPbProgress.setProgress((int)values[0]);
-        }*/
+        }
 
         @Override
         protected Object doInBackground(Object[] objects) {
