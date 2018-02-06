@@ -229,6 +229,9 @@ public class SDFragment extends Fragment implements AdapterView.OnItemClickListe
      * Notify when user choose a source
      */
     public void sendChangeMode(Globals globals) {
+
+        Log.d(TAG, "GAAAAAAFR:  sendChangeMode -> globals: "+globals);
+
         CanMSG canMSG = new CanMSG();
         canMSG.setId(CanMSG.MSGID_EQUIPAMENT_CTRL);
         canMSG.setLength((byte) 8);

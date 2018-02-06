@@ -116,6 +116,7 @@ public class ConfigFragment extends Fragment {
 
     private void closeFragment() {
         getActivity().getFragmentManager().beginTransaction().remove(this).commit();
+
     }
 
     private void initializeView() {

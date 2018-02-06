@@ -3,84 +3,75 @@
 
     <item
         is-multidex="false"
-        jar="C:\Users\ACTIA\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="22.0.1"
-        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="C:\Users\ACTIA\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_c0e5e27e329d7aaced9a9fd2f23dfe106bf734ab.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ACTIA\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="22.0.1"
-        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
-        <dex dex="C:\Users\ACTIA\Documents\GitHub\actia_multiplex\ACT550\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_3e5b721ae1300f8bee0f22ef114a356bd96dbc4c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ACTIA\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
-        jumboMode="false"
+        jar="C:\Users\SKYNET\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.7\751f548c85fa49f330cecbb1875893f971b33c4e\gson-2.7.jar"
+        jumboMode="true"
         optimize="true"
         revision="22.0.1"
         sha1="751f548c85fa49f330cecbb1875893f971b33c4e">
-        <dex dex="C:\Users\ACTIA\Documents\GitHub\actia_multiplex\ACT550\app\build\intermediates\pre-dexed\debug\gson-2.7_a037bbe9194f763e07f5b355e81db7a0baf29978.jar" />
+        <dex dex="C:\Users\SKYNET\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\pre-dexed\debug\gson-2.7_73b1bb36216948f67ea80267d99cb89d56143e8d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\ACTIA\Documents\GitHub\actia_multiplex\ACT550\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
+        jar="C:\Users\SKYNET\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="C:\Users\ACTIA\Documents\GitHub\actia_multiplex\ACT550\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_2006a03ecbde94786b6704c3deabea212310e6fb.jar" />
+        sha1="d3d915f1cc27213b292ca81e82bdd853c55ac471">
+        <dex dex="C:\Users\SKYNET\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_e21e5e11ad1154166198310b22a54d57f65889c5.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\ACTIA\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\SKYNET\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="22.0.1"
         sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="C:\Users\ACTIA\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_2c514c3d2d42762f5f9e0c0a49ab31d3f99a1acd.jar" />
+        <dex dex="C:\Users\SKYNET\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_964ef08dfec90c012bc2d8677688f5846cd0728e.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\ACTIA\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.4.0\ddd166d01b3158d1c00576d29f7ed15c030df719\eventbus-2.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="22.0.1"
-        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
-        <dex dex="C:\Users\ACTIA\Documents\GitHub\actia_multiplex\ACT550\app\build\intermediates\pre-dexed\debug\eventbus-2.4.0_31b7862731bac4d9a8c0652f664c9a08e4e8c752.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="C:\Users\ACTIA\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
-        jumboMode="false"
+        jar="C:\Users\SKYNET\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="true"
         optimize="true"
         revision="22.0.1"
         sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
-        <dex dex="C:\Users\ACTIA\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_f2907259f2c077427443fe213fcaa453d0ae6711.jar" />
+        <dex dex="C:\Users\SKYNET\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_f777cc34b66b76bf3071f0e16959e78ec3600378.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\ACTIA\Documents\GitHub\actia_multiplex\ACT550\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\SKYNET\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="true"
         optimize="true"
         revision="22.0.1"
         sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
-        <dex dex="C:\Users\ACTIA\Documents\GitHub\actia_multiplex\ACT550\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_7bc69fbae989a04a31513298205c49c665b20268.jar" />
+        <dex dex="C:\Users\SKYNET\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_8a21b1b70921f0530808f6d04d286f50b3d99f93.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="C:\Users\ACTIA\Documents\GitHub\actia_multiplex\ACT550\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
-        jumboMode="false"
+        jar="C:\Users\SKYNET\.gradle\caches\modules-2\files-2.1\de.greenrobot\eventbus\2.4.0\ddd166d01b3158d1c00576d29f7ed15c030df719\eventbus-2.4.0.jar"
+        jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
-        <dex dex="C:\Users\ACTIA\Documents\GitHub\actia_multiplex\ACT550\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_1f0bc36af283ecc61c065e9506bb5e8ed2a3fb37.jar" />
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="C:\Users\SKYNET\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\pre-dexed\debug\eventbus-2.4.0_ff91f896df781294e1a72b31f2a6a9a44438ff1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SKYNET\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="744f982f41956069e7cbf755f7a2d3f2de3efdb1">
+        <dex dex="C:\Users\SKYNET\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\pre-dexed\debug\instant-run_a45b81389c5af65675ecb30fee8991da312c1ed3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\SKYNET\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="22.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\SKYNET\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_007bd92bb1a73d84a7cc196f9ac5915224750ff1.jar" />
     </item>
 
 </items>

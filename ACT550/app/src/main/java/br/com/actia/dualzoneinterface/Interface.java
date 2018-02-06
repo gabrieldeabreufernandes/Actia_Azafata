@@ -58,6 +58,7 @@ public class Interface extends Activity implements View.OnClickListener {
     private ImageButton ibVipConfig;
     //GAFR
     private ImageButton ibVipMic;
+
     private ImageButton ibExecUsb;
     private ImageButton ibExecSd;
     private ImageButton ibExecRadio;
@@ -260,7 +261,7 @@ public class Interface extends Activity implements View.OnClickListener {
     //Clear all menu selections
     public void resetMenu(ImageButton button) {
         if( button == ibVipSd || button == ibVipUsb || button == ibVipRadio ||
-                button == ibVipAux || button == ibVipConfig ) {
+                button == ibVipAux || button == ibVipConfig || button == ibVipMic) {
             ibVipSd.setSelected(false);
             ibVipUsb.setSelected(false);
             ibVipRadio.setSelected(false);
@@ -270,7 +271,7 @@ public class Interface extends Activity implements View.OnClickListener {
             ibVipMic.setSelected(false);
         }
         else if( button == ibExecSd || button == ibExecUsb || button == ibExecRadio ||
-                button == ibExecAux || button == ibExecConfig ) {
+                button == ibExecAux || button == ibExecConfig || button == ibExecMic ) {
             ibExecSd.setSelected(false);
             ibExecUsb.setSelected(false);
             ibExecRadio.setSelected(false);
@@ -315,6 +316,8 @@ public class Interface extends Activity implements View.OnClickListener {
         }
         //GAFR
         else if(view == ibVipMic || view == ibExecMic) {
+            Log.d(TAG, "button MIC pressed...");
+
             setFragmentMIC(R_content, (view == ibVipMic));
         }
     }
@@ -406,7 +409,7 @@ public class Interface extends Activity implements View.OnClickListener {
 
         MicFragment micFragment = new MicFragment();
         micFragment.setIsDriver(isDrive);
-        //micFragment.sendChangeMode(globals);
+        micFragment.sendChangeMode(globals);
 
         changeFragment(R_fragmentContainer, micFragment, isDrive);
     }
