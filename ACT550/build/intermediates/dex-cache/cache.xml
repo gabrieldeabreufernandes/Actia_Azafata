@@ -16,7 +16,7 @@
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="d3d915f1cc27213b292ca81e82bdd853c55ac471">
+        sha1="7f140a8f5ebe22610ca1ba8c28e5fdb05b6704a8">
         <dex dex="C:\Users\SKYNET\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\pre-dexed\debug\instant-run-bootstrap_e21e5e11ad1154166198310b22a54d57f65889c5.jar" />
     </item>
     <item
@@ -61,7 +61,7 @@
         jumboMode="true"
         optimize="true"
         revision="22.0.1"
-        sha1="744f982f41956069e7cbf755f7a2d3f2de3efdb1">
+        sha1="a44edb7b544f89f3574e10297e73254a0ab17bd6">
         <dex dex="C:\Users\SKYNET\Documents\GitHub\Actia_Azafata\ACT550\app\build\intermediates\pre-dexed\debug\instant-run_a45b81389c5af65675ecb30fee8991da312c1ed3.jar" />
     </item>
     <item

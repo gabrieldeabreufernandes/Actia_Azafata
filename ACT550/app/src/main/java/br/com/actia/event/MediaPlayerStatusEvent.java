@@ -9,7 +9,7 @@ public class MediaPlayerStatusEvent {
     private MediaPlayerStatusFrame mediaPlayerStatusFrame = null;
 
     public MediaPlayerStatusEvent(byte[] data) {
-        mediaPlayerStatusFrame = new MediaPlayerStatusFrame(data);
+        mediaPlayerStatusFrame = new  MediaPlayerStatusFrame(data);
     }
 
     public MediaPlayerStatusFrame getMediaPlayerStatusFrame() {

@@ -121,6 +121,7 @@ public class Interface extends Activity implements View.OnClickListener {
         if (!mBluetoothAdapter.isEnabled()) {
             mBluetoothAdapter.enable();
             Toast.makeText(getApplicationContext(), "Bluetooth switched ON", Toast.LENGTH_LONG).show();
+            Log.d(TAG, "Bluetooth switched ON");
         }
     }
 
@@ -290,14 +291,10 @@ public class Interface extends Activity implements View.OnClickListener {
         resetMenu(ib);
         ib.setSelected(true);
 
-        //GAFR
-        //if(view == ibVipAux || view == ibVipConfig || view == ibVipSd || view == ibVipRadio || view == ibVipUsb) {
         if(view == ibVipAux || view == ibVipConfig || view == ibVipSd || view == ibVipRadio || view == ibVipUsb || view == ibVipMic) {
             R_content = R.id.vipTabContent;
         }
-        else {
-            R_content = R.id.execTabContent;
-        }
+        else {R_content = R.id.execTabContent;}
 
         if(view == ibVipUsb || view == ibExecUsb) {
             setFragmentUSB(R_content, (view == ibVipUsb));
@@ -309,6 +306,7 @@ public class Interface extends Activity implements View.OnClickListener {
             setFragmentRadio(R_content, (view == ibVipRadio));
         }
         else if(view == ibVipAux || view == ibExecAux) {
+            Log.d(TAG, "button MIC pressed...");
             setFragmentAux(R_content, (view == ibVipAux));
         }
         else if(view == ibVipConfig || view == ibExecConfig) {
@@ -317,7 +315,6 @@ public class Interface extends Activity implements View.OnClickListener {
         //GAFR
         else if(view == ibVipMic || view == ibExecMic) {
             Log.d(TAG, "button MIC pressed...");
-
             setFragmentMIC(R_content, (view == ibVipMic));
         }
     }
@@ -379,7 +376,7 @@ public class Interface extends Activity implements View.OnClickListener {
 
         AuxFragment auxFragment = new AuxFragment();
         auxFragment.setIsDriver(isDrive);
-        auxFragment.sendChangeMode(globals);
+        //auxFragment.sendChangeMode(globals);
 
         changeFragment(R_fragmentContainer, auxFragment, isDrive);
     }
@@ -409,7 +406,7 @@ public class Interface extends Activity implements View.OnClickListener {
 
         MicFragment micFragment = new MicFragment();
         micFragment.setIsDriver(isDrive);
-        micFragment.sendChangeMode(globals);
+        //micFragment.sendChangeMode(globals);
 
         changeFragment(R_fragmentContainer, micFragment, isDrive);
     }

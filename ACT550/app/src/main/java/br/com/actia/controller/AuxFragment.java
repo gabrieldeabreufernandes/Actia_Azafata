@@ -41,12 +41,13 @@ public class AuxFragment extends Fragment {
         canMSG.setLength((byte) 8);
         canMSG.setType(CanMSG.MSGTYPE_EXTENDED);
 
+        /*
         if(isDriver)
             canMSG.setData("000F00ffffffffff");
         else
             canMSG.setData("00F000ffffffffff");
 
-        globals.sendCanCMDEvent(canMSG);
+        globals.sendCanCMDEvent(canMSG);*/
     }
 
     public void setIsDriver(boolean val) {

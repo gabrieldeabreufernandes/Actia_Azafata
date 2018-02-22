@@ -109,12 +109,16 @@ public class SdController extends DefaultController {
             int dvdNumber = mediaPlayerStatusFrame.getDvdFileNumber().getValue();
             txtUsbFile.setText(String.format("%02d", dvdNumber));
             txtUsbTime.setText(mediaPlayerStatusFrame.getDvdTime().toString());
+            txtUsbTime.setText("%02d:%02d:%02d" +mediaPlayerStatusFrame.getDvdTime().getHours()
+                                                + mediaPlayerStatusFrame.getDvdTime().getMinutes()
+                                                + mediaPlayerStatusFrame.getDvdTime().getSeconds());
 
             changePlayPauseIcon(mediaPlayerStatusFrame.getDvdStatus().isPlaying());
         }
         else {
             txtUsbFile.setText("00");
             txtUsbTime.setText("00:00:00");
+
         }
     }
 

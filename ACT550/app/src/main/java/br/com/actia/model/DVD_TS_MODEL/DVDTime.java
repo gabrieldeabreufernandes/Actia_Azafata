@@ -12,6 +12,10 @@ public class DVDTime {
         this.minutes = minutes;
         this.seconds = seconds;
         this.hours = hours;
+
+        setHours(this.hours);
+        setMinutes(this.minutes);
+        setSeconds(this.seconds);
     }
 
     public byte getMinutes() {

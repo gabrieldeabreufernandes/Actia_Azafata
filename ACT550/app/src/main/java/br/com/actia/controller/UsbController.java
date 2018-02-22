@@ -94,9 +94,9 @@ public class UsbController extends DefaultController {
         canMSG.setType(CanMSG.MSGTYPE_EXTENDED);
 
         if(isDriver)
-            canMSG.setData("002F00ffffffffff");
+            canMSG.setData("4000000000000");//("002F00ffffffffff")
         else
-            canMSG.setData("00F200ffffffffff");
+            canMSG.setData("5000000000000");//‭00F200ffffffffff
 
         globals.sendCanCMDEvent(canMSG);
     }

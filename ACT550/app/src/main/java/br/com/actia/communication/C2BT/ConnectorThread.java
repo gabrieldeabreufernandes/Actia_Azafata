@@ -128,7 +128,7 @@ public class ConnectorThread extends Thread
 			
 			if(autostart)
 			{
-				Thread.sleep(10000);
+				Thread.sleep(9000);//10000
 			}
 			
 

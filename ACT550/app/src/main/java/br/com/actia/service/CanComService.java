@@ -3,6 +3,7 @@ package br.com.actia.service;
 import android.app.Service;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.IBinder;
 import android.support.annotation.Nullable;
 import android.util.Log;
@@ -27,6 +28,9 @@ public class CanComService extends Service {
     private DeviceCom deviceCom = null;
     private CmdHandlerImp cmdHandlerImp = null;
     private Globals globals = null;
+    //GAFR
+    private final Handler handler = new Handler();
+
 
     @Override
     public void onCreate() {
@@ -61,10 +65,10 @@ public class CanComService extends Service {
                 @Override
                 public void onConnectionEvent(DeviceConnectionEvent event) {
                     if(event.isConnected()) {
-                        System.out.println("onConnectionEvent = CONNECTED");
+                        Log.d(TAG, "DeviceBT = CONNECTED");
                     }
                     else {
-                        System.out.println("onConnectionEvent = DISCONNECTED");
+                        Log.d(TAG, "DeviceBT = DISCONNECTED");
                         deviceCom.closeDevice();
                         deviceCom.startDevice();
                     }
@@ -106,11 +110,17 @@ public class CanComService extends Service {
     }
 
     public void onEventBackgroundThread(final ComSendEvent event) {
-        CanMSG canMSG = event.getCanMSG();
+        final CanMSG canMSG = event.getCanMSG();
 
-        if(canMSG != null) {
-            //Log.i(TAG, "CAN MSG FROM TABLET = " + canMSG.getId());
-            deviceCom.sendCommand(canMSG);
-        }
+        handler.postDelayed(new Runnable() {
+
+            @Override
+            public void run() {
+                if(canMSG != null) {
+                    Log.i(TAG, "CAN MSG FROM TABLET = " + canMSG.getId());
+                    deviceCom.sendCommand(canMSG);
+                }
+            }
+        }, 100); //100ms message interval
     }
 }

@@ -56,6 +56,8 @@ public class Globals {
         canMSG.setType(CanMSG.MSGTYPE_EXTENDED);
         canMSG.buildCmdData(cmd);
 
+        canMSG.getData();
+
         eventBus.post(new ComSendEvent(canMSG));
     }
 }

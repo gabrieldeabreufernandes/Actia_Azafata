@@ -74,7 +74,7 @@ public class WriterThread extends Thread
 			
 			try 
 			{
-				Thread.sleep(80);
+				Thread.sleep(200);//80
 			}
 			catch (InterruptedException e) 
 			{

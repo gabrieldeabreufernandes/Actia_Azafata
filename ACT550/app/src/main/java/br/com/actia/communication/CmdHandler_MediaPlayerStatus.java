@@ -1,6 +1,7 @@
 package br.com.actia.communication;
 
 import android.content.Context;
+import android.util.Log;
 
 import br.com.actia.Globals;
 import br.com.actia.event.MediaPlayerStatusEvent;

@@ -240,6 +240,8 @@ public class UsbFragment extends Fragment implements AdapterView.OnItemClickList
         else
             canMSG.setData("00F200ffffffffff");
 
+        Log.d(TAG, "Send EQUIPAMENT_CONTROLE_FRAME | USB Source selected!");
+
         globals.sendCanCMDEvent(canMSG);
     }
 
